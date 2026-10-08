@@ -1,0 +1,12 @@
+# Ignore compiled executables and build directories
+build/
+*.out
+*.exe
+*.o
+
+# System files
+.DS_Store
+
+# MNIST data files
+data/mnist_train.csv
+data/mnist_test.csv
